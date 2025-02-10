@@ -46,3 +46,22 @@ $env:ALIBABA_API_KEY = "tu_clave_api"
 ```bash
 export ALIBABA_API_KEY="tu_clave_api"
 ```
+
+#### Lectura de un archivo python
+Guardamos la clave en un archivo json
+```json
+{
+  "api_key": "tu_clave_api"
+}
+```
+En el codigo de python correspondiente:
+```python
+import json
+
+with open("config.json") as config_file:
+    config = json.load(config_file)
+    api_key = config["api_key"]
+
+#print("Clave API cargada:", api_key)
+
+```
