@@ -10,24 +10,14 @@ Para obtener una clave API en **Alibaba Cloud**, primero debemos crear una cuent
 2. Regístrate con tu correo electrónico o inicia sesión si ya tienes una cuenta.
 3. Completa la verificación de identidad si es necesario.
 
-## 2. Selección de modelo
-
-Una vez creada la cuenta, seleccionaremos el servicio de inteligencia artificial que queremos utilizar. Alibaba Cloud ofrece diversas opciones, como:
-
-- **Alibaba Cloud Machine Learning Platform for AI**
-- **Natural Language Processing (NLP)**
-- **Computer Vision Services**
-
-Dentro del servicio elegido, verifica qué modelos están disponibles y cuáles requieren autenticación mediante API.
-
-## 3. Implementación de la clave API
+## 2. Obtencion de la clave API
 
 ### Generación de la clave API
 
 Para generar una clave API en **Alibaba Cloud**:
 
-1. Ve a la consola de **Alibaba Cloud**.
-2. Accede a la sección **AccessKey Management**.
+1. Ve a **alibaba model studio**.
+2. Accede a la sección **View api keys**.
 3. Crea una nueva **Access Key** y copia los valores generados (Access Key ID y Access Key Secret).
 
 ### Uso seguro de la clave API
